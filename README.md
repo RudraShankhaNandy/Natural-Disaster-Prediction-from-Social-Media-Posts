@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project provides a system for analyzing and classifying the type of natural disasters from social media posts. It uses a Convolutional Neural Network (CNN) for image classification. The system is able to classify images into four categories of natural disasters: Cyclone, Earthquake, Flood, and Wildfire.
+This project provides a system for analyzing and classifying the type of natural disasters from social media posts. It uses a fine-tuned BERT transformer for text processing to classify tweets as disaster related/unrelated and a Convolutional Neural Network (CNN) for image classification. The system is able to classify images into four categories of natural disasters: Cyclone, Earthquake, Flood, and Wildfire.
 
 
 ## Getting Started
@@ -24,7 +24,7 @@ To use the system, you need to follow these steps:
 
 ## Model Training
 
-The model was trained using the `model.ipynb` Jupyter notebook, which utilizes the Keras library for building and training the CNN model. The dataset was augmented using ImageDataGenerator to enhance the training process and improve the model's accuracy.
+The models have been trained using the `model.ipynb` &  'notebook_disaster_tweets.ipynb' Jupyter notebook, which utilizes the Keras library for building and training the CNN model. The dataset was augmented using ImageDataGenerator to enhance the training process and improve the model's accuracy.
 
 ## Web Interface
 
