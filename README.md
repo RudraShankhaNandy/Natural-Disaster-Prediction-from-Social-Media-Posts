@@ -1,4 +1,4 @@
-# Natural Disasters Intensity Analysis And Classification
+# Natural Disasters Prediction From Social Media Posts (Tweets)
 
 ## Introduction
 
@@ -45,16 +45,6 @@ Please note that the model has been trained on specific types of natural disaste
 ## Note
 
 The system utilizes a pre-trained model (`disaster.h5`) for classification. If you wish to retrain the model or use a different dataset, you can modify the `model.ipynb` notebook and follow the instructions mentioned there.
-
-## Troubleshooting
-
-In case of any issues or errors, make sure to check the following:
-
-1. The file paths for the dataset in both the `model.ipynb` and `app.py` files are correct and point to the right directories.
-
-2. The required libraries (Flask, OpenCV, Keras, and NumPy) are installed in your Python environment.
-
-3. Images uploaded for classification are of the correct format (JPEG or PNG) and belong to one of the four natural disaster classes.
 
 ## Conclusion
 
